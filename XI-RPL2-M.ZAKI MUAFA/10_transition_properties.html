@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+         /*background color*/
+         body {
+            background-color: #dfab1c;
+        }
+
+        .transition-box {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            transition-property: background-color, width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+
+        .transition-box:hover {
+            background-color: blue;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="transition-box"></div>
+    </body>
